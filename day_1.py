@@ -1,7 +1,6 @@
 from aocd import get_data
 import os
 
-AOC_SESSION = os.getenv("AOC_SESSION")
 data=get_data(day=1, year=2022)
 data_into_list = data.splitlines()
 
