@@ -35,7 +35,7 @@ for rucksack in rucksacks:
     common_items.extend(list(set(first_comp).intersection(second_comp)))
     
 my_answer_a=sum(priority(common_items))
-submit(my_answer_a, part='a',day=aoc_day,year=aoc_year)
+submit(my_answer_a, part=part_a,day=aoc_day,year=aoc_year)
 
 
 # Find common badges in groups of 3 rucksacks
@@ -46,4 +46,4 @@ for group in groups:
     common_badge.extend(list(set(group[0]).intersection(group[1]).intersection(group[2])))
 
 my_answer_b=sum(priority(common_badge))
-submit(my_answer_b, part='b',day=aoc_day,year=aoc_year)
+submit(my_answer_b, part=part_b,day=aoc_day,year=aoc_year)
