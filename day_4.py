@@ -1,6 +1,6 @@
 
 # Solved with the help of ChatGPT 
-# ChatGPT generated code to split pairs into start and end as well as the counter incremetn
+# ChatGPT generated code to split pairs into start and end as well as the counter increment
 # ChatGPT failed to generate correct logic for checking if pairs overlap:
 # if (start1 <= start2 <= end1 <= end2) or (start2 <= start1 <= end2 <= end1):
 
